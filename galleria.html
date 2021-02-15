@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Galleria</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+</head>
+
+<body id="page-top" style="background: url(&quot;assets/img/IMG_20200819_190525.jpg&quot;) center / cover no-repeat;background-size: cover;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background: rgba(255,255,255,0.7);">
+        <div class="container"><a class="navbar-brand" href="etusivu.html">Vaellukselle Lappiin</a><button data-toggle="collapse" onclick=myFunction() class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="kohteet.html" style="color: rgb(0,0,0);">Vaelluskohteet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Tarvikkeet.html" style="color: rgb(0,0,0);">Vaellustarvikkeet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galleria.html" style="color: rgb(0,0,0);">Galleria</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="photo-gallery" style="background: rgba(0,0,0,0.6);">
+        <div class="container" style="text-align: center;">
+            <div class="intro">
+                <h2 class="text-center" style="color: rgb(255,255,255);">Galleria</h2>
+                <p class="text-center" style="color: rgb(255,255,255);">Maisemakuvia ja -videoita Lapista.</p><br><video style="width: 90vmin; height:90vmin;" controls>
+                    <source src="assets/img/video.mp4" type="video/mp4">
+                  </video>
+                <p class="text-center" style="color: rgb(255,255,255);">Video majoituspaikalta.</p><br><img src="assets/img/IMG_20200819_104723.jpg" >
+                <p class="text-center" style="color: rgb(255,255,255);">Kuva Saana-tunturilta kohti Norjaa.</p><img src="assets/img/IMG_20200819_084753.jpg">
+                <p class="text-center" style="color: rgb(255,255,255);">Saana-tunturi Kilpisjärvellä.</p><img src="assets/img/IMG_20200815_210017.jpg">
+                <p class="text-center" style="color: rgb(255,255,255);">Kuva Pallas-Hetta vaellukselta.</p><img src="assets/img/IMG_20200819_184218.jpg">
+                <p class="text-center" style="color: rgb(255,255,255);">Morsiushuntuputous Norjan puolella.</p><img src="assets/img/IMG_20200815_152922.jpg">
+                <p class="text-center" style="color: rgb(255,255,255);">Valmiina vaellukselle.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function myFunction() {
+            document.getElementById("navcol-1").classList.toggle("show");
+        }
+    </script>
+    <style>
+        img{
+            width:90vmin;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    </style>
+
+</body>
+
+</html>
