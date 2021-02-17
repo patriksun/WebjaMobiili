@@ -2,3 +2,22 @@
   margin-bottom: 0;
 }
 
+#desk-table {
+  display: flex;
+  margin-bottom: 0;
+}
+#phone-table {
+  display: none;
+}
+
+@media only screen and (max-width: 582px)
+{
+  #desk-table {
+    display: none;
+  }
+  #phone-table {
+    display: flex;
+    margin-bottom: 0;
+  }
+}
+
