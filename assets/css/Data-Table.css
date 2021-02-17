@@ -3,7 +3,7 @@
 }
 
 #desk-table {
-  display: flex;
+  display: block;
   margin-bottom: 0;
 }
 #phone-table {
@@ -16,8 +16,9 @@
     display: none;
   }
   #phone-table {
-    display: flex;
+    display: block;
     margin-bottom: 0;
+    font-size: 3.5vmin;
   }
 }
 
